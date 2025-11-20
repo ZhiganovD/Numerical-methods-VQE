@@ -5,7 +5,7 @@
       - To open Linux, type in Windows Search: Ubuntu, and open it.
 
 2.- INSTALLING CONDA (and VsCode)
-    -  Open Firefox (writing firefox in command line)
+    -  Open Firefox (run: firefox)
     -  Go to https://repo.anaconda.com/archive/
         -  Download Anaconda3-2025.06-1-Linux-x86_64.sh (for example in Downloads)
     -  Go to https://code.visualstudio.com/download
