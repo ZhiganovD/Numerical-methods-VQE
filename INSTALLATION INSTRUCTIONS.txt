@@ -1,1 +1,60 @@
+1.- USE LINUX (or Mac OS, but idk about it)
+    - To use Linux in Windows, I installed Linux (Ubuntu): 
+      - Open Powershell as Administrator
+      - Run: wsl --install
+      - To open Linux, type in Windows Search: Ubuntu, and open it.
+
+2.- INSTALLING CONDA (and VsCode)
+    -  Open Firefox (writing firefox in command line)
+    -  Go to https://repo.anaconda.com/archive/
+        -  Download Anaconda3-2025.06-1-Linux-x86_64.sh (for example in Downloads)
+    -  Go to https://code.visualstudio.com/download
+        -  Download the .deb file
+    -  Run: cd Downloads
+        - (to check files in Downloads, run: ls)
+    -  Run: bash Anaconda3-2025.06-1-Linux-x86_64.sh
+    -  Run: sudo apt install ./code_1.105.1-1760482543_amd64.deb    
+
+            Next steps may be not necessary, but I ran them, so just in case.
+    -  Run: echo "export PATH=$PATH:/home/USERNAME/anaconda3/bin">> ~/.bashrc     #replace USERNAME with your username
+    -  Run: nano ~/.bashrc
+
+3.- CREATING CONDA ENVIRONMENT 
+    -  Run: conda create --name vqe-jupyter python=3.12      #vqe-jupyter is an example name, create it simple to remember it
+    
+4.- ACCESSING CONDA ENVIRONMENT AND INSTALLING PACKAGES
+    - Run: conda activate vqe-jupyter                      #RUN THIS EACH TIME YOU OPEN UBUNTU OR TURN ON YOUR COMPUTER
+        (if you dont remember the name, run: conda env list)
+    - Run: (in this order just in case)
+          conda install conda-forge::pennylane
+          conda install conda-forge::pyscf
+          conda install conda-forge::pylatexenc
+          conda install matplotlib
+          conda install ipykernel
+          conda install conda-forge::qiskit-ibm-runtime
+          conda install conda-forge::qiskit-ibm-catalog
+          pip install qiskit-ibm-catalog
+          conda install conda-forge::qiskit-aer
+          pip install qiskit-nature
+          conda install anaconda::scikit-learn
+          pip install qiskit-algorithms
+
+
+5.- CREATING GIT CLONE REPOSITORY IN COMPUTER
+    - Close and open Ubuntu
+    - Run: mkdir vqe-github      # you can change the name
+    - Run: cd vqe-github
+    - Run: git clone https://github.com/ZhiganovD/Numerical-methods-VQE.git
+    - Run: git status
+    - Run: git init
+    - Run: git config --global user.name "username"      #replace username with your GitHub username
+    - Run: git config --global user.name
+
+
+
+- REMEMBER EACH TIME: Run: conda activate vqe-jupyter 
+
+
+
+
 
