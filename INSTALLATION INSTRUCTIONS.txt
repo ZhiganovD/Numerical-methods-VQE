@@ -51,8 +51,9 @@
     - Run: git config --global user.name
 
 
-
-- REMEMBER EACH TIME: Run: conda activate vqe-jupyter 
+EVERYTIME:
+    - Run: conda activate vqe-jupyter 
+    - To open VsCode: run: code
 
 
 
