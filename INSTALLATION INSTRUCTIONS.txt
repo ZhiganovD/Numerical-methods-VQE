@@ -51,7 +51,7 @@
 
 EVERYTIME:
     - Run: conda activate vqe-jupyter 
-    - To open VsCode: run: code
+    - To open VsCode: run: code (install recommended extensions that appear as notifications in app)
 
 
 
