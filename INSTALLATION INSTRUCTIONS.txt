@@ -8,12 +8,13 @@
     -  Open Firefox (run: firefox)
     -  Go to https://repo.anaconda.com/archive/
         -  Download Anaconda3-2025.06-1-Linux-x86_64.sh (for example in Downloads)
-    -  Go to https://code.visualstudio.com/download
+    -  Go to https://code.visualstudio.com/updates/v1_106
         -  Download the .deb file
     -  Run: cd Downloads
         - (to check files in Downloads, run: ls)
     -  Run: bash Anaconda3-2025.06-1-Linux-x86_64.sh
-    -  Run: sudo apt install ./code_1.105.1-1760482543_amd64.deb 
+    -  Run: sudo apt install ./code_1.106.2-1763572306_amd64.deb
+
 
             Next steps may be not necessary, but I ran them, so just in case.
     -  Run: echo "export PATH=$PATH:/home/USERNAME/anaconda3/bin">> ~/.bashrc     #replace USERNAME with your username
