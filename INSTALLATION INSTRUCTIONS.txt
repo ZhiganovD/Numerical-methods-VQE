@@ -25,7 +25,7 @@
 4.- ACCESSING CONDA ENVIRONMENT AND INSTALLING PACKAGES
     - Run: conda activate vqe-jupyter                      #RUN THIS EACH TIME YOU OPEN UBUNTU OR TURN ON YOUR COMPUTER
         (if you dont remember the name, run: conda env list)
-    - Run: (in this order just in case)
+    - Run: (in this order)
           conda install matplotlib=3.10.6
           conda install conda-forge::pennylane=0.37.0
           conda install conda-forge::pyscf=2.10.0
