@@ -31,13 +31,12 @@
           conda install conda-forge::pyscf=2.10.0
           conda install conda-forge::pylatexenc=2.10
           ###conda install matplotlib
-          conda install ipykernel
-          conda install conda-forge::qiskit-ibm-runtime
-          conda install conda-forge::qiskit-ibm-catalog
-          pip install qiskit-ibm-catalog
-          conda install conda-forge::qiskit-aer
-          pip install qiskit-nature
-          conda install anaconda::scikit-learn
+          conda install ipykernel=6.30.1
+          conda install conda-forge::qiskit-ibm-runtime=0.43.1
+          pip install qiskit-ibm-catalog==0.10.0
+          conda install conda-forge::qiskit-aer=0.17.2
+          pip install qiskit-nature==0.7.2
+          conda install anaconda::scikit-learn=1.7.2
 
 
 5.- CREATING GIT CLONE REPOSITORY IN COMPUTER
