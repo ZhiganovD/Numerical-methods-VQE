@@ -20,7 +20,7 @@
     -  Run: nano ~/.bashrc
 
 3.- CREATING CONDA ENVIRONMENT 
-    -  Run: conda create --name vqe-jupyter python=3.12      #vqe-jupyter is an example name, create it simple to remember it
+    -  Run: conda create --name vqe-jupyter python=3.12.7      #vqe-jupyter is an example name, create it simple to remember it
     
 4.- ACCESSING CONDA ENVIRONMENT AND INSTALLING PACKAGES
     - Run: conda activate vqe-jupyter                      #RUN THIS EACH TIME YOU OPEN UBUNTU OR TURN ON YOUR COMPUTER
