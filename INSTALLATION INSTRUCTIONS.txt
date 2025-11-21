@@ -95,9 +95,8 @@ except Exception:
 	- Save file in VsCode
 	- Click: Source Control symbol
 	- Click: '+' symbol on the right of Changes
-	- Add a message (eg: "commit algorithm change") and click: Commit
-	- Add a messag (eg: "sync algorithm change") and click: Sync Changes
-	
+	- Add a message (eg: "algorithm change") and click: 'Commit and Sync' on the right of 'Commit' ('v' symbol)
+
 	
 
 
