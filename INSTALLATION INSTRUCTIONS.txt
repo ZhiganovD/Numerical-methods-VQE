@@ -91,20 +91,18 @@ except Exception:
 	- Choose a folder to store the repository
 	
 
-7.- PUSHING LOCAL CHANGES TO THE REPOSITORY
+7.- PUSHING LOCAL CHANGES TO THE WEB REPOSITORY
 	- Save file in VsCode
 	- Click: Source Control symbol
 	- Click: '+' symbol on the right of Changes
-	- Add a message (eg: "algorithm change") and click: Commit
-	- Add a messag (eg: "algorithm change") and click: Sync Changes
+	- Add a message (eg: "commit algorithm change") and click: Commit
+	- Add a messag (eg: "sync algorithm change") and click: Sync Changes
 	
 	
 
 
 EVERYTIME:
     - To open VsCode: run: code (if first time, install recommended extensions like python and jupyter that appear automatically recommended)
-    - To save altered files from computer to the web, I simply drag the files to the web, because of ignorance of the proper way.
-    - To use altered files from the web to computer, I simply download them manually (check the time changes on the web). Again, the only way I know from ignorance.
 
 
 
