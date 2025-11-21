@@ -94,7 +94,10 @@ except Exception:
 7.- PUSHING LOCAL CHANGES TO THE REPOSITORY
 	- Save file in VsCode
 	- Click: Source Control symbol
-	- Click: 
+	- Click: '+' symbol on the right of Changes
+	- Add a message (eg: "algorithm change") and click: Commit
+	- Add a messag (eg: "algorithm change") and click: Sync Changes
+	
 	
 
 
