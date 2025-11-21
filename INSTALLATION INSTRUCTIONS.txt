@@ -82,15 +82,15 @@ except Exception:
     - Save the file
 
 
-6.- CREATING GIT CLONE REPOSITORY IN COMPUTER
-    - Close and open Ubuntu
-    - Run: mkdir vqe-github      # you can change the name
-    - Run: cd vqe-github
-    - Run: git clone https://github.com/ZhiganovD/Numerical-methods-VQE.git
-    - Run: git status
-    - Run: git init
-    - Run: git config --global user.name "username"      #replace username with your GitHub username
-    - Run: git config --global user.name
+6.- CREATING GIT CLONE REPOSITORY IN COMPUTER	
+	- Open VsCode
+	- Log in in VsCode (bottom left) with the email of github
+	- On left pannel, click: Source Control symbol
+	- Click: Clone Repository
+	- Paste: https://github.com/ZhiganovD/Numerical-methods-VQE.git
+	- Choose a folder to store the repository
+	
+	
 
 
 EVERYTIME:
