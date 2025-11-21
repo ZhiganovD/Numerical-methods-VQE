@@ -90,6 +90,11 @@ except Exception:
 	- Paste: https://github.com/ZhiganovD/Numerical-methods-VQE.git
 	- Choose a folder to store the repository
 	
+
+7.- PUSHING LOCAL CHANGES TO THE REPOSITORY
+	- Save file in VsCode
+	- Click: Source Control symbol
+	- Click: 
 	
 
 
