@@ -40,9 +40,48 @@
         pip install qiskit-ibm-catalog==0.11.0
         pip install qiskit-serverless==0.27.1
 
+5.- ADDING SPECIFIC FIX BECAUSE OF PACKAGES ISSUES
+    - Close and open Ubuntu
+    - Run: cd /home/gregor/anaconda3/envs/vqe-jupyter/lib/python3.12/site-packages/qiskit/primitives     #replace gregor (and vqe-jupyter if different)
+    - Run: code __init__.py
+    - Go almost to the bottom of the file, just between
+                    .. autosummary::
+                       :toctree: ../stubs/
+                    
+                       BaseSamplerV1
+                       SamplerResult
+                    
+                    """
+
+        and
+
+                    from .base import (
+                        BaseEstimatorV1,
+                        BaseEstimatorV2,
+                        BaseSamplerV1,
+                        BaseSamplerV2,
+                    )
 
 
-5.- CREATING GIT CLONE REPOSITORY IN COMPUTER
+    - There, insert this code:
+###CHANGE
+# Compatibility shim for packages expecting the old `Estimator` class.
+# Qiskit 2.x removed Estimator and replaced it with EstimatorV2.
+# This alias allows qiskit-nature <= 0.7.2 and qiskit-algorithms <= 0.4.0
+# to continue working without modifying their source code.
+  
+try:
+    from .base import BaseEstimatorV2 as BaseEstimator
+except Exception:
+    # If BaseEstimatorV2 isn't available, create a dummy class so imports succeed.
+    class BaseEstimator:
+        pass
+  
+### END OF CHANGE
+
+
+
+6.- CREATING GIT CLONE REPOSITORY IN COMPUTER
     - Close and open Ubuntu
     - Run: mkdir vqe-github      # you can change the name
     - Run: cd vqe-github
