@@ -27,16 +27,19 @@
     - Run: conda activate vqe-jupyter                      #RUN THIS EACH TIME YOU OPEN UBUNTU OR TURN ON YOUR COMPUTER
         (if you dont remember the name, run: conda env list)
     - Run: (in this order)
-          conda install matplotlib=3.10.6
-          conda install conda-forge::pennylane=0.37.0
-          conda install conda-forge::pyscf=2.10.0
-          conda install conda-forge::pylatexenc=2.10
-          conda install ipykernel=6.30.1
-          conda install conda-forge::qiskit-ibm-runtime=0.43.1
-          pip install qiskit-ibm-catalog==0.10.0
-          conda install conda-forge::qiskit-aer=0.17.2
-          pip install qiskit-nature==0.7.2
-          conda install anaconda::scikit-learn=1.7.2
+        conda install matplotlib=3.10.6
+        conda install conda-forge::pennylane=0.37.0
+        conda install conda-forge::pyscf=2.10.0
+        conda install conda-forge::pylatexenc=2.10
+        conda install ipykernel=6.30.1
+        conda install conda-forge::qiskit-ibm-runtime=0.43.1
+        pip install qiskit-ibm-catalog==0.10.0
+        conda install conda-forge::qiskit-aer=0.17.2
+        pip install qiskit-nature==0.7.2
+        conda install anaconda::scikit-learn=1.7.2
+        pip install qiskit-ibm-catalog==0.11.0
+        pip instal qiskit-serverless==0.27.1
+
 
 
 5.- CREATING GIT CLONE REPOSITORY IN COMPUTER
