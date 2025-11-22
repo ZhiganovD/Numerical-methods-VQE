@@ -108,7 +108,7 @@ except Exception:
 
 EVERYTIME:
     - To open VsCode: run: code (if first time, install recommended extensions like python and jupyter that appear automatically recommended)
-
+	- Download changes from repository to computer (step 8)
 
 
 
