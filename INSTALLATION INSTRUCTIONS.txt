@@ -94,9 +94,15 @@ except Exception:
 7.- PUSHING LOCAL CHANGES TO THE WEB REPOSITORY
 	- Save file in VsCode
 	- Click: Source Control symbol
-	- Click: '+' symbol on the right of Changes
+	- Click: '+' symbol on the right of CHANGES
 	- Add a message (eg: "algorithm change") and click: 'Commit and Sync' on the right of 'Commit' ('v' symbol)
 
+
+8.- DOWNLOADING REPOSITORY CHANGES TO YOUR LOCAL COMPUTERA
+	- Open VsCode
+	- Click: Source Control symbol
+	- On the Graph section appearing below the CHANGES section, click: 'Fetch from all remotes' symbol (arrow pointing down symbol, on the right of GRAPH)
+	- Click on 
 	
 
 
