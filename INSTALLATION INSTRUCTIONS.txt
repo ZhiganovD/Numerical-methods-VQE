@@ -5,7 +5,9 @@
       - To open Linux, type in Windows Search: Ubuntu, and open it.
 
 2.- INSTALLING CONDA (and VsCode)
-    -  Open Firefox (run: firefox)
+    - Open Ubuntu
+    -  run: firefox
+        - if it gives error, install it through Youtube or AI
     -  Go to https://repo.anaconda.com/archive/
         -  Download Anaconda3-2025.06-1-Linux-x86_64.sh (for example in Downloads)
     -  Go to https://code.visualstudio.com/updates/v1_106
@@ -15,10 +17,6 @@
     -  Run: bash Anaconda3-2025.06-1-Linux-x86_64.sh
     -  Run: sudo apt install ./code_1.106.2-1763572306_amd64.deb
 
-
-            Next steps may be not necessary, but I ran them, so just in case.
-    -  Run: echo "export PATH=$PATH:/home/USERNAME/anaconda3/bin">> ~/.bashrc     #replace USERNAME with your username
-    -  Run: nano ~/.bashrc
 
 3.- CREATING CONDA ENVIRONMENT 
     -  Run: conda create --name vqe-jupyter python=3.12.7      #vqe-jupyter is an example name, create it simple to remember it
