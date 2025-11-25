@@ -6,14 +6,14 @@
 
 2.- INSTALLING CONDA (and VsCode)
     - Open Ubuntu
-    -  run: firefox
-        - if it gives error, install it through Youtube or AI
+    -  Run: sudo apt install firefox
+    -  Run: firefox 
     -  Go to https://repo.anaconda.com/archive/
-        -  Download Anaconda3-2025.06-1-Linux-x86_64.sh (for example in Downloads)
+        -  Download Anaconda3-2025.06-1-Linux-x86_64.sh 
     -  Go to https://code.visualstudio.com/updates/v1_106
         -  Download the .deb file
-    -  Run: cd Downloads
-        - (to check files in Downloads, run: ls)
+    -  Run: cd snap/firefox/common/Downloads
+        - (if error, run: cd Downloads)
     -  Run: bash Anaconda3-2025.06-1-Linux-x86_64.sh
     -  Run: sudo apt install ./code_1.106.2-1763572306_amd64.deb
     -  Close and open Ubuntu
