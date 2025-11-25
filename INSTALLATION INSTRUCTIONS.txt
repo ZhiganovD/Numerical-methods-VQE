@@ -94,11 +94,12 @@ except Exception:
 
 7.- PUSHING LOCAL CHANGES TO THE WEB REPOSITORY
     - FIRST TIME ONLY:
-        -   Press: Ctrl+Shift+P
+        -   Open Ubuntu
         -   Run: git config --global user.name yan-drak  #change for github username
         -   Run: git config --global user.email gregortobaschus@gmail.com   #change for github email
-	- Save file in VsCode
-	- Click: Source Control symbol
+	
+    - Save file in VsCode
+	- Click: Source Control symbol, on the left pannel
 	- Click: '+' symbol on the right of CHANGES
 	- Add a message (eg: "algorithm change") and click: 'Commit and Sync' on the right of 'Commit' ('v' symbol)
 
