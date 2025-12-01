@@ -39,6 +39,10 @@
         conda install anaconda::scikit-learn=1.7.2
         pip install qiskit-ibm-catalog==0.11.0
         pip install qiskit-serverless==0.27.1
+        conda install conda-forge::qiskit
+        conda install conda-forge::qiskit-optimization
+        conda install conda-forge::pymatgen
+        pip install CoRE_MOF
 
 5.- ADDING SPECIFIC FIX BECAUSE OF PACKAGES ISSUES
     - Close and open Ubuntu
