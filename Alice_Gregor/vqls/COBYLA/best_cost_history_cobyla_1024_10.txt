@@ -84,7 +84,7 @@
 0.3125303201811126
 0.28622356199641896
 0.25748282787165244 
- BEST COBYLA MINIMIZATION 
+ COBYLA MINIMIZATION 10
 shots = 1024
  message: Return from COBYLA because the trust region radius reaches its lower bound.
  success: True
