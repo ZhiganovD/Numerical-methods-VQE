@@ -1,0 +1,682 @@
+Shots: 50000
+learning_rate, perturbation = SPSA.calibrate(
+        loss=lambda x: calculate_cost_function_sampling(x, shots, coefficient_set_2, gate_set_2, cost_history_cal),
+        initial_point=x0,
+        # target_magnitude=0.2,     # recommended for 1024 shots
+        # c=0.15
+    )
+Cost Function Value (Sampling): 0.871994 (Num: 0.028327 / Denom: 0.221294)
+Cost Function Value (Sampling): 0.644142 (Num: 0.146570 / Denom: 0.411878)
+Cost Function Value (Sampling): 0.692638 (Num: 0.139450 / Denom: 0.453700)
+Cost Function Value (Sampling): 0.824900 (Num: 0.037945 / Denom: 0.216702)
+Cost Function Value (Sampling): 0.742738 (Num: 0.139096 / Denom: 0.540676)
+Cost Function Value (Sampling): 0.812425 (Num: 0.035641 / Denom: 0.190010)
+Cost Function Value (Sampling): 0.741149 (Num: 0.062612 / Denom: 0.241883)
+Cost Function Value (Sampling): 0.749769 (Num: 0.086762 / Denom: 0.346730)
+Cost Function Value (Sampling): 0.898385 (Num: 0.029497 / Denom: 0.290284)
+Cost Function Value (Sampling): 0.655838 (Num: 0.132712 / Denom: 0.385610)
+Cost Function Value (Sampling): 0.728720 (Num: 0.117390 / Denom: 0.432726)
+Cost Function Value (Sampling): 0.897540 (Num: 0.029949 / Denom: 0.292298)
+Cost Function Value (Sampling): 0.632393 (Num: 0.112684 / Denom: 0.306534)
+Cost Function Value (Sampling): 0.834648 (Num: 0.048250 / Denom: 0.291803)
+Cost Function Value (Sampling): 0.896662 (Num: 0.027000 / Denom: 0.261275)
+Cost Function Value (Sampling): 0.565145 (Num: 0.162849 / Denom: 0.374490)
+Cost Function Value (Sampling): 0.830213 (Num: 0.049818 / Denom: 0.293414)
+Cost Function Value (Sampling): 0.688761 (Num: 0.081208 / Denom: 0.260918)
+Cost Function Value (Sampling): 0.850105 (Num: 0.038235 / Denom: 0.255078)
+Cost Function Value (Sampling): 0.645857 (Num: 0.126483 / Denom: 0.357153)
+Cost Function Value (Sampling): 0.737509 (Num: 0.087308 / Denom: 0.332613)
+Cost Function Value (Sampling): 0.826423 (Num: 0.041757 / Denom: 0.240570)
+Cost Function Value (Sampling): 0.878376 (Num: 0.019562 / Denom: 0.160840)
+Cost Function Value (Sampling): 0.760861 (Num: 0.121871 / Denom: 0.509625)
+Cost Function Value (Sampling): 0.645046 (Num: 0.104589 / Denom: 0.294654)
+Cost Function Value (Sampling): 0.834556 (Num: 0.051960 / Denom: 0.314063)
+Cost Function Value (Sampling): 0.881814 (Num: 0.030425 / Denom: 0.257430)
+Cost Function Value (Sampling): 0.567274 (Num: 0.156017 / Denom: 0.360544)
+Cost Function Value (Sampling): 0.795412 (Num: 0.048415 / Denom: 0.236649)
+Cost Function Value (Sampling): 0.679926 (Num: 0.107038 / Denom: 0.334415)
+Cost Function Value (Sampling): 0.841583 (Num: 0.032211 / Denom: 0.203330)
+Cost Function Value (Sampling): 0.673547 (Num: 0.110953 / Denom: 0.339875)
+Cost Function Value (Sampling): 0.683827 (Num: 0.079591 / Denom: 0.251733)
+Cost Function Value (Sampling): 0.808466 (Num: 0.062225 / Denom: 0.324878)
+Cost Function Value (Sampling): 0.788035 (Num: 0.039269 / Denom: 0.185260)
+Cost Function Value (Sampling): 0.788611 (Num: 0.103298 / Denom: 0.488666)
+Cost Function Value (Sampling): 0.714146 (Num: 0.100787 / Denom: 0.352581)
+Cost Function Value (Sampling): 0.794424 (Num: 0.040233 / Denom: 0.195710)
+Cost Function Value (Sampling): 0.621363 (Num: 0.139079 / Denom: 0.367314)
+Cost Function Value (Sampling): 0.860391 (Num: 0.024904 / Denom: 0.178384)
+Cost Function Value (Sampling): 0.772546 (Num: 0.083073 / Denom: 0.365231)
+Cost Function Value (Sampling): 0.681813 (Num: 0.060620 / Denom: 0.190516)
+Cost Function Value (Sampling): 0.691084 (Num: 0.077216 / Denom: 0.249957)
+Cost Function Value (Sampling): 0.841642 (Num: 0.065381 / Denom: 0.412866)
+Cost Function Value (Sampling): 0.826493 (Num: 0.042578 / Denom: 0.245394)
+Cost Function Value (Sampling): 0.727840 (Num: 0.091608 / Denom: 0.336597)
+Cost Function Value (Sampling): 0.739076 (Num: 0.057418 / Denom: 0.220055)
+Cost Function Value (Sampling): 0.804988 (Num: 0.059888 / Denom: 0.307101)
+Cost Function Value (Sampling): 0.764657 (Num: 0.042278 / Denom: 0.179644)
+Cost Function Value (Sampling): 0.723836 (Num: 0.141946 / Denom: 0.513990)
+Cost Function Value (Sampling): 0.741695 (Num: 0.073771 / Denom: 0.285594)
+Cost Function Value (Sampling): 0.724951 (Num: 0.077343 / Denom: 0.281195)
+Cost Function Value (Sampling): 0.733070 (Num: 0.075467 / Denom: 0.282722)
+Cost Function Value (Sampling): 0.734901 (Num: 0.075678 / Denom: 0.285472)
+Cost Function Value (Sampling): 0.738269 (Num: 0.075470 / Denom: 0.288347)
+Cost Function Value (Sampling): 0.728334 (Num: 0.077672 / Denom: 0.285909)
+Cost Function Value (Sampling): 0.737930 (Num: 0.074776 / Denom: 0.285330)
+Cost Function Value (Sampling): 0.724720 (Num: 0.078283 / Denom: 0.284378)
+Cost Function Value (Sampling): 0.740822 (Num: 0.074025 / Denom: 0.285616)
+Cost Function Value (Sampling): 0.743640 (Num: 0.073638 / Denom: 0.287243)
+Cost Function Value (Sampling): 0.738257 (Num: 0.075309 / Denom: 0.287721)
+Cost Function Value (Sampling): 0.733399 (Num: 0.075608 / Denom: 0.283600)
+Cost Function Value (Sampling): 0.731551 (Num: 0.076221 / Denom: 0.283931)
+Cost Function Value (Sampling): 0.728452 (Num: 0.077562 / Denom: 0.285628)
+Cost Function Value (Sampling): 0.728352 (Num: 0.077182 / Denom: 0.284126)
+Cost Function Value (Sampling): 0.726103 (Num: 0.077845 / Denom: 0.284212)
+Cost Function Value (Sampling): 0.729750 (Num: 0.077016 / Denom: 0.284980)
+Cost Function Value (Sampling): 0.744305 (Num: 0.073092 / Denom: 0.285856)
+Cost Function Value (Sampling): 0.739807 (Num: 0.074006 / Denom: 0.284426)
+Cost Function Value (Sampling): 0.734533 (Num: 0.076104 / Denom: 0.286682)
+Cost Function Value (Sampling): 0.731387 (Num: 0.077246 / Denom: 0.287574)
+Cost Function Value (Sampling): 0.727436 (Num: 0.077223 / Denom: 0.283319)
+Cost Function Value (Sampling): 0.725038 (Num: 0.078310 / Denom: 0.284805)
+Cost Function Value (Sampling): 0.729853 (Num: 0.076477 / Denom: 0.283094)
+Cost Function Value (Sampling): 0.735351 (Num: 0.074978 / Denom: 0.283312)
+Cost Function Value (Sampling): 0.726344 (Num: 0.078612 / Denom: 0.287265)
+Cost Function Value (Sampling): 0.855419 (Num: 0.051726 / Denom: 0.357765)
+Cost Function Value (Sampling): 0.672850 (Num: 0.071932 / Denom: 0.219875)
+Cost Function Value (Sampling): 0.938783 (Num: 0.013101 / Denom: 0.214017)
+New Best Found: Cost = 0.938783 at nfev = 4
+Parameters: [4.02322633 5.86047895 4.01336297 0.853574   4.99000791 4.7769207
+ 4.38003678 1.67793599 6.8264908 ]
+Cost Function Value (Sampling): 0.625122 (Num: 0.136439 / Denom: 0.363957)
+Cost Function Value (Sampling): 0.851764 (Num: 0.038865 / Denom: 0.262182)
+Cost Function Value (Sampling): 0.541796 (Num: 0.216419 / Denom: 0.472322)
+New Best Found: Cost = 0.541796 at nfev = 7
+Parameters: [4.22091128 5.662794   3.05214924 1.05125895 5.95122163 3.81570698
+ 5.34125051 1.48025104 5.86527708]
+Cost Function Value (Sampling): 0.567172 (Num: 0.260001 / Denom: 0.600702)
+Cost Function Value (Sampling): 0.588136 (Num: 0.153190 / Denom: 0.371942)
+Cost Function Value (Sampling): 0.533863 (Num: 0.236251 / Denom: 0.506826)
+New Best Found: Cost = 0.533863 at nfev = 10
+Parameters: [4.16836932 5.71533597 3.10469121 0.99871699 6.0037636  3.86824894
+ 5.39379247 1.42770908 5.81273511]
+Cost Function Value (Sampling): 0.618512 (Num: 0.151131 / Denom: 0.396162)
+Cost Function Value (Sampling): 0.523360 (Num: 0.318158 / Denom: 0.667502)
+Cost Function Value (Sampling): 0.527058 (Num: 0.330293 / Denom: 0.698380)
+New Best Found: Cost = 0.527058 at nfev = 13
+Parameters: [3.96189646 5.50886312 2.89821836 1.20518984 6.21023645 4.07472179
+ 5.18731962 1.63418193 6.01920796]
+Cost Function Value (Sampling): 0.571441 (Num: 0.443904 / Denom: 1.035808)
+Cost Function Value (Sampling): 0.541974 (Num: 0.199222 / Denom: 0.434958)
+Cost Function Value (Sampling): 0.517922 (Num: 0.287577 / Denom: 0.596536)
+New Best Found: Cost = 0.517922 at nfev = 16
+Parameters: [4.0190753  5.56604196 2.9553972  1.26236868 6.15305761 4.01754296
+ 5.13014078 1.69136077 6.0763868 ]
+Cost Function Value (Sampling): 0.632623 (Num: 0.214234 / Denom: 0.583144)
+Cost Function Value (Sampling): 0.429693 (Num: 0.287794 / Denom: 0.504630)
+Cost Function Value (Sampling): 0.417374 (Num: 0.279660 / Denom: 0.479999)
+New Best Found: Cost = 0.417374 at nfev = 19
+Parameters: [4.21612166 5.76308832 2.75835083 1.06532232 5.95601125 4.21458932
+ 4.93309442 1.88840713 6.27343316]
+Cost Function Value (Sampling): 0.527486 (Num: 0.272316 / Denom: 0.576314)
+Cost Function Value (Sampling): 0.369338 (Num: 0.276631 / Denom: 0.438635)
+Cost Function Value (Sampling): 0.375559 (Num: 0.273503 / Denom: 0.437997)
+New Best Found: Cost = 0.375559 at nfev = 22
+Parameters: [4.39570517 5.94267182 2.93793434 0.88573881 6.13559476 4.39417282
+ 4.75351091 2.06799064 6.45301667]
+Cost Function Value (Sampling): 0.377443 (Num: 0.275599 / Denom: 0.442689)
+Cost Function Value (Sampling): 0.436573 (Num: 0.265439 / Denom: 0.471114)
+Cost Function Value (Sampling): 0.366903 (Num: 0.277614 / Denom: 0.438501)
+New Best Found: Cost = 0.366903 at nfev = 25
+Parameters: [4.30504112 5.85200778 2.84727029 0.97640286 6.04493071 4.30350877
+ 4.84417496 2.15865469 6.36235262]
+Cost Function Value (Sampling): 0.346019 (Num: 0.323014 / Denom: 0.493919)
+Cost Function Value (Sampling): 0.481315 (Num: 0.182367 / Denom: 0.351594)
+Cost Function Value (Sampling): 0.341143 (Num: 0.324271 / Denom: 0.492172)
+New Best Found: Cost = 0.341143 at nfev = 28
+Parameters: [4.45941062 5.69763828 3.00163979 0.82203336 6.1993002  4.45787827
+ 4.99854446 2.31302418 6.20798313]
+Cost Function Value (Sampling): 0.372424 (Num: 0.349009 / Denom: 0.556122)
+Cost Function Value (Sampling): 0.366828 (Num: 0.274869 / Denom: 0.434114)
+Cost Function Value (Sampling): 0.353880 (Num: 0.317117 / Denom: 0.490802)
+Cost Function Value (Sampling): 0.408310 (Num: 0.331223 / Denom: 0.559792)
+Cost Function Value (Sampling): 0.389094 (Num: 0.257708 / Denom: 0.421845)
+Cost Function Value (Sampling): 0.338778 (Num: 0.314504 / Denom: 0.475641)
+New Best Found: Cost = 0.338778 at nfev = 34
+Parameters: [4.43429193 5.72275697 2.9765211  0.84715205 6.17418152 4.43275958
+ 4.97342577 2.33814287 6.23310181]
+Cost Function Value (Sampling): 0.427348 (Num: 0.277776 / Denom: 0.485070)
+Cost Function Value (Sampling): 0.418014 (Num: 0.303763 / Denom: 0.521942)
+Cost Function Value (Sampling): 0.348025 (Num: 0.313822 / Denom: 0.481341)
+Cost Function Value (Sampling): 0.388928 (Num: 0.299522 / Denom: 0.490158)
+Cost Function Value (Sampling): 0.342821 (Num: 0.304004 / Denom: 0.462590)
+Cost Function Value (Sampling): 0.345886 (Num: 0.312711 / Denom: 0.478067)
+Cost Function Value (Sampling): 0.350838 (Num: 0.330542 / Denom: 0.509183)
+Cost Function Value (Sampling): 0.342733 (Num: 0.276709 / Denom: 0.421000)
+Cost Function Value (Sampling): 0.340619 (Num: 0.311551 / Denom: 0.472490)
+Cost Function Value (Sampling): 0.360778 (Num: 0.327669 / Denom: 0.512606)
+Cost Function Value (Sampling): 0.366260 (Num: 0.270041 / Denom: 0.426107)
+Cost Function Value (Sampling): 0.347554 (Num: 0.312740 / Denom: 0.479334)
+Cost Function Value (Sampling): 0.368408 (Num: 0.302441 / Denom: 0.478854)
+Cost Function Value (Sampling): 0.333375 (Num: 0.320128 / Denom: 0.480222)
+Cost Function Value (Sampling): 0.337559 (Num: 0.315319 / Denom: 0.475996)
+New Best Found: Cost = 0.337559 at nfev = 49
+Parameters: [4.34933046 5.80771844 3.06148257 0.95547617 6.14177054 4.5533533
+ 4.85283205 2.30573189 6.2194696 ]
+Cost Function Value (Sampling): 0.355375 (Num: 0.273760 / Denom: 0.424682)
+Cost Function Value (Sampling): 0.344262 (Num: 0.333998 / Denom: 0.509346)
+Cost Function Value (Sampling): 0.341073 (Num: 0.317325 / Denom: 0.481578)
+Cost Function Value (Sampling): 0.366912 (Num: 0.290304 / Denom: 0.458553)
+Cost Function Value (Sampling): 0.324646 (Num: 0.359197 / Denom: 0.531866)
+Cost Function Value (Sampling): 0.323393 (Num: 0.331877 / Denom: 0.490502)
+New Best Found: Cost = 0.323393 at nfev = 55
+Parameters: [4.40417937 5.8392075  3.09297164 0.98696523 6.19661945 4.58484236
+ 4.82134299 2.27424283 6.16462069]
+Cost Function Value (Sampling): 0.348572 (Num: 0.324368 / Denom: 0.497934)
+Cost Function Value (Sampling): 0.386114 (Num: 0.302599 / Denom: 0.492923)
+Cost Function Value (Sampling): 0.329213 (Num: 0.329212 / Denom: 0.490785)
+Cost Function Value (Sampling): 0.345444 (Num: 0.272891 / Denom: 0.416910)
+Cost Function Value (Sampling): 0.347588 (Num: 0.379946 / Denom: 0.582371)
+Cost Function Value (Sampling): 0.321158 (Num: 0.330989 / Denom: 0.487578)
+New Best Found: Cost = 0.321158 at nfev = 61
+Parameters: [4.36893733 5.87860436 3.0577296  0.94756837 6.23186148 4.5454455
+ 4.78194613 2.30948486 6.19986272]
+Cost Function Value (Sampling): 0.302601 (Num: 0.351030 / Denom: 0.503342)
+Cost Function Value (Sampling): 0.411960 (Num: 0.247240 / Denom: 0.420448)
+Cost Function Value (Sampling): 0.307016 (Num: 0.353189 / Denom: 0.509663)
+New Best Found: Cost = 0.307016 at nfev = 64
+Parameters: [4.27624593 5.97129577 2.9650382  1.04025978 6.32455288 4.6381369
+ 4.68925473 2.40217626 6.10717132]
+Cost Function Value (Sampling): 0.360566 (Num: 0.281109 / Denom: 0.439622)
+Cost Function Value (Sampling): 0.337946 (Num: 0.380293 / Denom: 0.574413)
+Cost Function Value (Sampling): 0.317338 (Num: 0.355435 / Denom: 0.520660)
+Cost Function Value (Sampling): 0.350084 (Num: 0.263977 / Denom: 0.406170)
+Cost Function Value (Sampling): 0.353537 (Num: 0.399917 / Denom: 0.618623)
+Cost Function Value (Sampling): 0.313320 (Num: 0.354338 / Denom: 0.516016)
+Cost Function Value (Sampling): 0.346477 (Num: 0.271457 / Denom: 0.415374)
+Cost Function Value (Sampling): 0.346345 (Num: 0.407110 / Denom: 0.622821)
+Cost Function Value (Sampling): 0.312398 (Num: 0.356579 / Denom: 0.518584)
+Cost Function Value (Sampling): 0.317970 (Num: 0.332977 / Denom: 0.488214)
+Cost Function Value (Sampling): 0.341460 (Num: 0.336560 / Denom: 0.511070)
+Cost Function Value (Sampling): 0.304058 (Num: 0.356098 / Denom: 0.511677)
+New Best Found: Cost = 0.304058 at nfev = 76
+Parameters: [4.27893908 6.01554448 2.92078949 1.07826954 6.36279494 4.64083005
+ 4.68656158 2.40463712 6.11071712]
+Cost Function Value (Sampling): 0.331710 (Num: 0.354879 / Denom: 0.531026)
+Cost Function Value (Sampling): 0.304989 (Num: 0.330914 / Denom: 0.476128)
+Cost Function Value (Sampling): 0.311738 (Num: 0.351817 / Denom: 0.511168)
+Cost Function Value (Sampling): 0.378247 (Num: 0.356237 / Denom: 0.572956)
+Cost Function Value (Sampling): 0.315114 (Num: 0.301270 / Denom: 0.439883)
+Cost Function Value (Sampling): 0.296568 (Num: 0.338823 / Denom: 0.481672)
+New Best Found: Cost = 0.296568 at nfev = 82
+Parameters: [4.3088682  5.98561536 2.99611775 1.04834042 6.33286582 4.67075917
+ 4.71649071 2.47996538 6.03538886]
+Cost Function Value (Sampling): 0.277356 (Num: 0.328048 / Denom: 0.453954)
+Cost Function Value (Sampling): 0.328375 (Num: 0.361112 / Denom: 0.537669)
+Cost Function Value (Sampling): 0.296716 (Num: 0.335405 / Denom: 0.476913)
+Cost Function Value (Sampling): 0.319581 (Num: 0.373421 / Denom: 0.548810)
+Cost Function Value (Sampling): 0.314658 (Num: 0.292756 / Denom: 0.427168)
+Cost Function Value (Sampling): 0.290685 (Num: 0.332376 / Denom: 0.468587)
+New Best Found: Cost = 0.290685 at nfev = 88
+Parameters: [4.34667082 6.02341798 3.0418391  1.08614304 6.37066844 4.70856179
+ 4.67868809 2.52568673 6.07319148]
+Cost Function Value (Sampling): 0.304621 (Num: 0.303741 / Denom: 0.436799)
+Cost Function Value (Sampling): 0.307613 (Num: 0.350278 / Denom: 0.505900)
+Cost Function Value (Sampling): 0.295979 (Num: 0.329797 / Denom: 0.468448)
+Cost Function Value (Sampling): 0.286567 (Num: 0.307610 / Denom: 0.431169)
+Cost Function Value (Sampling): 0.299897 (Num: 0.365942 / Denom: 0.522698)
+Cost Function Value (Sampling): 0.296377 (Num: 0.328186 / Denom: 0.466422)
+Cost Function Value (Sampling): 0.325505 (Num: 0.323984 / Denom: 0.480335)
+Cost Function Value (Sampling): 0.294820 (Num: 0.303409 / Denom: 0.430257)
+Cost Function Value (Sampling): 0.292438 (Num: 0.327027 / Denom: 0.462189)
+Cost Function Value (Sampling): 0.392400 (Num: 0.252924 / Denom: 0.416267)
+Cost Function Value (Sampling): 0.308651 (Num: 0.377071 / Denom: 0.545414)
+Cost Function Value (Sampling): 0.295553 (Num: 0.349790 / Denom: 0.496545)
+Cost Function Value (Sampling): 0.295659 (Num: 0.320570 / Denom: 0.455135)
+Cost Function Value (Sampling): 0.401293 (Num: 0.324659 / Denom: 0.542267)
+Cost Function Value (Sampling): 0.288004 (Num: 0.343459 / Denom: 0.482390)
+New Best Found: Cost = 0.288004 at nfev = 103
+Parameters: [4.38438338 6.19213458 3.0372989  1.11615367 6.37520864 4.73384019
+ 4.77494927 2.40395512 6.04318085]
+Cost Function Value (Sampling): 0.351412 (Num: 0.333742 / Denom: 0.514566)
+Cost Function Value (Sampling): 0.313278 (Num: 0.314084 / Denom: 0.457367)
+Cost Function Value (Sampling): 0.283311 (Num: 0.338927 / Denom: 0.472907)
+New Best Found: Cost = 0.283311 at nfev = 106
+Parameters: [4.41229634 6.22004754 3.06521185 1.08824071 6.4031216  4.70592723
+ 4.80286223 2.43186808 6.01526789]
+Cost Function Value (Sampling): 0.287384 (Num: 0.318837 / Denom: 0.447417)
+Cost Function Value (Sampling): 0.318703 (Num: 0.328234 / Denom: 0.481778)
+Cost Function Value (Sampling): 0.266422 (Num: 0.342897 / Denom: 0.467430)
+New Best Found: Cost = 0.266422 at nfev = 109
+Parameters: [4.38969247 6.24265141 3.08781572 1.11084458 6.42572547 4.68332336
+ 4.8254661  2.45447195 5.99266402]
+Cost Function Value (Sampling): 0.309781 (Num: 0.308254 / Denom: 0.446603)
+Cost Function Value (Sampling): 0.333526 (Num: 0.314050 / Denom: 0.471210)
+Cost Function Value (Sampling): 0.273753 (Num: 0.340362 / Denom: 0.468659)
+Cost Function Value (Sampling): 0.305389 (Num: 0.251150 / Denom: 0.361569)
+Cost Function Value (Sampling): 0.324185 (Num: 0.368813 / Denom: 0.545730)
+Cost Function Value (Sampling): 0.265926 (Num: 0.334055 / Denom: 0.455070)
+New Best Found: Cost = 0.265926 at nfev = 115
+Parameters: [4.39339302 6.27275791 3.05770923 1.10714403 6.42942602 4.71342986
+ 4.82176555 2.48457845 5.96255752]
+Cost Function Value (Sampling): 0.300169 (Num: 0.310024 / Denom: 0.442998)
+Cost Function Value (Sampling): 0.290925 (Num: 0.341186 / Denom: 0.481170)
+Cost Function Value (Sampling): 0.277183 (Num: 0.330176 / Denom: 0.456791)
+Cost Function Value (Sampling): 0.309300 (Num: 0.314370 / Denom: 0.455147)
+Cost Function Value (Sampling): 0.335548 (Num: 0.318626 / Denom: 0.479531)
+Cost Function Value (Sampling): 0.277662 (Num: 0.331482 / Denom: 0.458901)
+Cost Function Value (Sampling): 0.261637 (Num: 0.331678 / Denom: 0.449207)
+Cost Function Value (Sampling): 0.298189 (Num: 0.308942 / Denom: 0.440207)
+Cost Function Value (Sampling): 0.263907 (Num: 0.334716 / Denom: 0.454720)
+New Best Found: Cost = 0.263907 at nfev = 124
+Parameters: [4.35711707 6.25960095 3.09398517 1.09398708 6.47852129 4.66433459
+ 4.82142792 2.53367372 5.96221989]
+Cost Function Value (Sampling): 0.316523 (Num: 0.286118 / Denom: 0.418622)
+Cost Function Value (Sampling): 0.286872 (Num: 0.373488 / Denom: 0.523732)
+Cost Function Value (Sampling): 0.265511 (Num: 0.341204 / Denom: 0.464546)
+Cost Function Value (Sampling): 0.312578 (Num: 0.309984 / Denom: 0.450938)
+Cost Function Value (Sampling): 0.284888 (Num: 0.347684 / Denom: 0.486196)
+Cost Function Value (Sampling): 0.266008 (Num: 0.341440 / Denom: 0.465182)
+Cost Function Value (Sampling): 0.333164 (Num: 0.264281 / Denom: 0.396321)
+Cost Function Value (Sampling): 0.307241 (Num: 0.384629 / Denom: 0.555213)
+Cost Function Value (Sampling): 0.257223 (Num: 0.353801 / Denom: 0.476322)
+New Best Found: Cost = 0.257223 at nfev = 133
+Parameters: [4.3725093  6.24420873 3.11243214 1.115159   6.5335324  4.68278156
+ 4.800256   2.51522675 5.94377292]
+Cost Function Value (Sampling): 0.297863 (Num: 0.375938 / Denom: 0.535420)
+Cost Function Value (Sampling): 0.277152 (Num: 0.313130 / Denom: 0.433190)
+Cost Function Value (Sampling): 0.263591 (Num: 0.349597 / Denom: 0.474731)
+Cost Function Value (Sampling): 0.283700 (Num: 0.346906 / Denom: 0.484302)
+Cost Function Value (Sampling): 0.297685 (Num: 0.329200 / Denom: 0.468736)
+Cost Function Value (Sampling): 0.264389 (Num: 0.348404 / Denom: 0.473625)
+Cost Function Value (Sampling): 0.287752 (Num: 0.346483 / Denom: 0.486465)
+Cost Function Value (Sampling): 0.261997 (Num: 0.321759 / Denom: 0.435986)
+Cost Function Value (Sampling): 0.260339 (Num: 0.345877 / Denom: 0.467615)
+Cost Function Value (Sampling): 0.273594 (Num: 0.323226 / Denom: 0.444966)
+Cost Function Value (Sampling): 0.268207 (Num: 0.349307 / Denom: 0.477330)
+Cost Function Value (Sampling): 0.251585 (Num: 0.352210 / Denom: 0.470608)
+New Best Found: Cost = 0.251585 at nfev = 145
+Parameters: [4.33731829 6.23481386 3.0950943  1.09108929 6.53086941 4.67432325
+ 4.76506499 2.53929646 5.93531461]
+Cost Function Value (Sampling): 0.323493 (Num: 0.342633 / Denom: 0.506474)
+Cost Function Value (Sampling): 0.313872 (Num: 0.306825 / Denom: 0.447184)
+Cost Function Value (Sampling): 0.262566 (Num: 0.344866 / Denom: 0.467656)
+Cost Function Value (Sampling): 0.273064 (Num: 0.364304 / Denom: 0.501150)
+Cost Function Value (Sampling): 0.296468 (Num: 0.323752 / Denom: 0.460180)
+Cost Function Value (Sampling): 0.266632 (Num: 0.348220 / Denom: 0.474822)
+Cost Function Value (Sampling): 0.299017 (Num: 0.347115 / Denom: 0.495184)
+Cost Function Value (Sampling): 0.262684 (Num: 0.318561 / Denom: 0.432054)
+Cost Function Value (Sampling): 0.262256 (Num: 0.346294 / Denom: 0.469396)
+Cost Function Value (Sampling): 0.245764 (Num: 0.318109 / Denom: 0.421763)
+Cost Function Value (Sampling): 0.295626 (Num: 0.352162 / Denom: 0.499965)
+Cost Function Value (Sampling): 0.256531 (Num: 0.340822 / Denom: 0.458421)
+Cost Function Value (Sampling): 0.283448 (Num: 0.345023 / Denom: 0.481504)
+Cost Function Value (Sampling): 0.262549 (Num: 0.305543 / Denom: 0.414323)
+Cost Function Value (Sampling): 0.243664 (Num: 0.343533 / Denom: 0.454206)
+New Best Found: Cost = 0.243664 at nfev = 160
+Parameters: [4.33345901 6.29081764 3.08219778 1.1351936  6.61552845 4.69911923
+ 4.736353   2.62395549 5.87931084]
+Cost Function Value (Sampling): 0.266709 (Num: 0.319819 / Denom: 0.436142)
+Cost Function Value (Sampling): 0.298091 (Num: 0.329586 / Denom: 0.469557)
+Cost Function Value (Sampling): 0.254693 (Num: 0.337159 / Denom: 0.452375)
+Cost Function Value (Sampling): 0.336147 (Num: 0.256022 / Denom: 0.385660)
+Cost Function Value (Sampling): 0.326611 (Num: 0.404946 / Denom: 0.601355)
+Cost Function Value (Sampling): 0.254421 (Num: 0.341026 / Denom: 0.457398)
+Cost Function Value (Sampling): 0.246196 (Num: 0.359061 / Denom: 0.476332)
+Cost Function Value (Sampling): 0.265842 (Num: 0.333752 / Denom: 0.454605)
+Cost Function Value (Sampling): 0.253508 (Num: 0.341487 / Denom: 0.457456)
+Cost Function Value (Sampling): 0.275291 (Num: 0.332404 / Denom: 0.458673)
+Cost Function Value (Sampling): 0.245741 (Num: 0.323361 / Denom: 0.428714)
+Cost Function Value (Sampling): 0.246731 (Num: 0.342760 / Denom: 0.455030)
+Cost Function Value (Sampling): 0.266413 (Num: 0.306421 / Denom: 0.417702)
+Cost Function Value (Sampling): 0.273606 (Num: 0.330984 / Denom: 0.455654)
+Cost Function Value (Sampling): 0.247773 (Num: 0.341594 / Denom: 0.454110)
+Cost Function Value (Sampling): 0.241913 (Num: 0.321489 / Denom: 0.424079)
+Cost Function Value (Sampling): 0.263096 (Num: 0.339429 / Denom: 0.460614)
+Cost Function Value (Sampling): 0.252793 (Num: 0.340010 / Denom: 0.455042)
+Cost Function Value (Sampling): 0.255547 (Num: 0.322266 / Denom: 0.432890)
+Cost Function Value (Sampling): 0.278696 (Num: 0.332369 / Denom: 0.460790)
+Cost Function Value (Sampling): 0.245714 (Num: 0.338720 / Denom: 0.449061)
+Cost Function Value (Sampling): 0.279142 (Num: 0.278399 / Denom: 0.386205)
+Cost Function Value (Sampling): 0.270725 (Num: 0.399365 / Denom: 0.547619)
+Cost Function Value (Sampling): 0.247891 (Num: 0.341907 / Denom: 0.454598)
+Cost Function Value (Sampling): 0.247793 (Num: 0.303988 / Denom: 0.404128)
+Cost Function Value (Sampling): 0.276558 (Num: 0.372013 / Denom: 0.514226)
+Cost Function Value (Sampling): 0.246486 (Num: 0.337074 / Denom: 0.447335)
+Cost Function Value (Sampling): 0.272021 (Num: 0.340313 / Denom: 0.467476)
+Cost Function Value (Sampling): 0.263065 (Num: 0.326427 / Denom: 0.442953)
+Cost Function Value (Sampling): 0.237493 (Num: 0.341292 / Denom: 0.447592)
+New Best Found: Cost = 0.237493 at nfev = 190
+Parameters: [4.32565481 6.23486274 3.05897089 1.13034464 6.71243369 4.71245539
+ 4.72124507 2.7004012  5.81582619]
+Cost Function Value (Sampling): 0.270941 (Num: 0.297261 / Denom: 0.407733)
+Cost Function Value (Sampling): 0.246536 (Num: 0.360702 / Denom: 0.478725)
+Cost Function Value (Sampling): 0.246656 (Num: 0.340467 / Denom: 0.451941)
+Cost Function Value (Sampling): 0.239768 (Num: 0.302168 / Denom: 0.397468)
+Cost Function Value (Sampling): 0.272687 (Num: 0.377548 / Denom: 0.519100)
+Cost Function Value (Sampling): 0.247789 (Num: 0.331020 / Denom: 0.440063)
+Cost Function Value (Sampling): 0.275044 (Num: 0.278591 / Denom: 0.384287)
+Cost Function Value (Sampling): 0.265182 (Num: 0.374407 / Denom: 0.509524)
+Cost Function Value (Sampling): 0.239437 (Num: 0.338989 / Denom: 0.445708)
+Cost Function Value (Sampling): 0.267887 (Num: 0.326722 / Denom: 0.446272)
+Cost Function Value (Sampling): 0.316050 (Num: 0.306523 / Denom: 0.448166)
+Cost Function Value (Sampling): 0.231740 (Num: 0.339921 / Denom: 0.442456)
+New Best Found: Cost = 0.231740 at nfev = 202
+Parameters: [4.30991291 6.23501878 3.12056164 1.1919354  6.77402444 4.66137144
+ 4.71058222 2.72508039 5.80516334]
+Cost Function Value (Sampling): 0.240410 (Num: 0.294590 / Denom: 0.387827)
+Cost Function Value (Sampling): 0.269746 (Num: 0.377219 / Denom: 0.516558)
+Cost Function Value (Sampling): 0.239514 (Num: 0.332698 / Denom: 0.437481)
+Cost Function Value (Sampling): 0.275633 (Num: 0.293643 / Denom: 0.405378)
+Cost Function Value (Sampling): 0.281783 (Num: 0.331631 / Denom: 0.461742)
+Cost Function Value (Sampling): 0.231097 (Num: 0.336111 / Denom: 0.437130)
+New Best Found: Cost = 0.231097 at nfev = 208
+Parameters: [4.3285123  6.24720959 3.13275246 1.2105348  6.79262384 4.64918063
+ 4.69198282 2.74367979 5.78656394]
+Cost Function Value (Sampling): 0.273354 (Num: 0.355667 / Denom: 0.489465)
+Cost Function Value (Sampling): 0.294938 (Num: 0.290052 / Denom: 0.411386)
+Cost Function Value (Sampling): 0.240753 (Num: 0.335835 / Denom: 0.442326)
+Cost Function Value (Sampling): 0.251342 (Num: 0.323459 / Denom: 0.432052)
+Cost Function Value (Sampling): 0.236296 (Num: 0.336434 / Denom: 0.440529)
+Cost Function Value (Sampling): 0.235514 (Num: 0.337037 / Denom: 0.440867)
+Cost Function Value (Sampling): 0.253494 (Num: 0.320852 / Denom: 0.429806)
+Cost Function Value (Sampling): 0.277999 (Num: 0.317096 / Denom: 0.439190)
+Cost Function Value (Sampling): 0.229133 (Num: 0.338142 / Denom: 0.438652)
+New Best Found: Cost = 0.229133 at nfev = 217
+Parameters: [4.35989955 6.23814964 3.14181241 1.20147485 6.82401109 4.65557458
+ 4.66059558 2.75273974 5.79562389]
+Cost Function Value (Sampling): 0.277907 (Num: 0.325740 / Denom: 0.451106)
+Cost Function Value (Sampling): 0.242726 (Num: 0.329085 / Denom: 0.434565)
+Cost Function Value (Sampling): 0.233012 (Num: 0.338329 / Denom: 0.441114)
+Cost Function Value (Sampling): 0.288145 (Num: 0.294928 / Denom: 0.414309)
+Cost Function Value (Sampling): 0.270167 (Num: 0.359774 / Denom: 0.492954)
+Cost Function Value (Sampling): 0.236672 (Num: 0.337276 / Denom: 0.441849)
+Cost Function Value (Sampling): 0.267876 (Num: 0.381219 / Denom: 0.520703)
+Cost Function Value (Sampling): 0.288335 (Num: 0.249375 / Denom: 0.350411)
+Cost Function Value (Sampling): 0.230581 (Num: 0.345867 / Denom: 0.449517)
+Cost Function Value (Sampling): 0.272292 (Num: 0.401581 / Denom: 0.551843)
+Cost Function Value (Sampling): 0.269292 (Num: 0.272563 / Denom: 0.373012)
+Cost Function Value (Sampling): 0.232777 (Num: 0.342429 / Denom: 0.446322)
+Cost Function Value (Sampling): 0.303611 (Num: 0.355004 / Denom: 0.509778)
+Cost Function Value (Sampling): 0.287340 (Num: 0.297445 / Denom: 0.417374)
+Cost Function Value (Sampling): 0.239225 (Num: 0.339672 / Denom: 0.446481)
+Cost Function Value (Sampling): 0.239038 (Num: 0.358252 / Denom: 0.470788)
+Cost Function Value (Sampling): 0.257256 (Num: 0.308027 / Denom: 0.414714)
+Cost Function Value (Sampling): 0.237325 (Num: 0.341104 / Denom: 0.447246)
+Cost Function Value (Sampling): 0.247583 (Num: 0.341153 / Denom: 0.453410)
+Cost Function Value (Sampling): 0.238023 (Num: 0.345047 / Denom: 0.452831)
+Cost Function Value (Sampling): 0.221981 (Num: 0.344383 / Denom: 0.442641)
+New Best Found: Cost = 0.221981 at nfev = 238
+Parameters: [4.38617743 6.24954782 3.13895753 1.20556906 6.86516187 4.6491218
+ 4.68483369 2.7565329  5.81688395]
+Cost Function Value (Sampling): 0.225240 (Num: 0.339528 / Denom: 0.438237)
+Cost Function Value (Sampling): 0.259506 (Num: 0.332587 / Denom: 0.449142)
+Cost Function Value (Sampling): 0.226949 (Num: 0.343692 / Denom: 0.444592)
+Cost Function Value (Sampling): 0.249354 (Num: 0.377291 / Denom: 0.502622)
+Cost Function Value (Sampling): 0.263863 (Num: 0.290572 / Denom: 0.394725)
+Cost Function Value (Sampling): 0.224799 (Num: 0.348764 / Denom: 0.449901)
+Cost Function Value (Sampling): 0.245255 (Num: 0.298018 / Denom: 0.394859)
+Cost Function Value (Sampling): 0.283841 (Num: 0.359216 / Denom: 0.501587)
+Cost Function Value (Sampling): 0.221108 (Num: 0.343928 / Denom: 0.441561)
+New Best Found: Cost = 0.221108 at nfev = 247
+Parameters: [4.35813963 6.27758562 3.14779308 1.17753126 6.90715019 4.69111012
+ 4.71287149 2.7845707  5.8080484 ]
+Cost Function Value (Sampling): 0.271915 (Num: 0.327760 / Denom: 0.450167)
+Cost Function Value (Sampling): 0.260003 (Num: 0.328970 / Denom: 0.444556)
+Cost Function Value (Sampling): 0.228931 (Num: 0.340987 / Denom: 0.442226)
+Cost Function Value (Sampling): 0.226778 (Num: 0.336943 / Denom: 0.435765)
+Cost Function Value (Sampling): 0.235120 (Num: 0.338292 / Denom: 0.442281)
+Cost Function Value (Sampling): 0.218255 (Num: 0.342659 / Denom: 0.438326)
+New Best Found: Cost = 0.218255 at nfev = 253
+Parameters: [4.36773493 6.27586684 3.13819779 1.17581248 6.91674548 4.68939134
+ 4.70327619 2.794166   5.81764369]
+Cost Function Value (Sampling): 0.253021 (Num: 0.368115 / Denom: 0.492806)
+Cost Function Value (Sampling): 0.282235 (Num: 0.287706 / Denom: 0.400835)
+Cost Function Value (Sampling): 0.224812 (Num: 0.345643 / Denom: 0.445883)
+Cost Function Value (Sampling): 0.278378 (Num: 0.346873 / Denom: 0.480686)
+Cost Function Value (Sampling): 0.278472 (Num: 0.297808 / Denom: 0.412746)
+Cost Function Value (Sampling): 0.220484 (Num: 0.346701 / Denom: 0.444765)
+Cost Function Value (Sampling): 0.254489 (Num: 0.396326 / Denom: 0.531616)
+Cost Function Value (Sampling): 0.250944 (Num: 0.285206 / Denom: 0.380754)
+Cost Function Value (Sampling): 0.224902 (Num: 0.345992 / Denom: 0.446385)
+Cost Function Value (Sampling): 0.258601 (Num: 0.339472 / Denom: 0.457881)
+Cost Function Value (Sampling): 0.229959 (Num: 0.329246 / Denom: 0.427569)
+Cost Function Value (Sampling): 0.231781 (Num: 0.342538 / Denom: 0.445886)
+Cost Function Value (Sampling): 0.266159 (Num: 0.273937 / Denom: 0.373293)
+Cost Function Value (Sampling): 0.272033 (Num: 0.431795 / Denom: 0.593152)
+Cost Function Value (Sampling): 0.229570 (Num: 0.341697 / Denom: 0.443514)
+Cost Function Value (Sampling): 0.296907 (Num: 0.321184 / Denom: 0.456815)
+Cost Function Value (Sampling): 0.241364 (Num: 0.328223 / Denom: 0.432650)
+Cost Function Value (Sampling): 0.229093 (Num: 0.342228 / Denom: 0.443930)
+Cost Function Value (Sampling): 0.265461 (Num: 0.341909 / Denom: 0.465474)
+Cost Function Value (Sampling): 0.247202 (Num: 0.336433 / Denom: 0.446910)
+Cost Function Value (Sampling): 0.227989 (Num: 0.340588 / Denom: 0.441170)
+Cost Function Value (Sampling): 0.235513 (Num: 0.346178 / Denom: 0.452824)
+Cost Function Value (Sampling): 0.230130 (Num: 0.328823 / Denom: 0.427115)
+Cost Function Value (Sampling): 0.224492 (Num: 0.338918 / Denom: 0.437027)
+Cost Function Value (Sampling): 0.248216 (Num: 0.358045 / Denom: 0.476260)
+Cost Function Value (Sampling): 0.238136 (Num: 0.331035 / Denom: 0.434507)
+Cost Function Value (Sampling): 0.229939 (Num: 0.340426 / Denom: 0.442077)
+Cost Function Value (Sampling): 0.256521 (Num: 0.406640 / Denom: 0.546942)
+Cost Function Value (Sampling): 0.262167 (Num: 0.265727 / Denom: 0.360146)
+Cost Function Value (Sampling): 0.216819 (Num: 0.345018 / Denom: 0.440534)
+New Best Found: Cost = 0.216819 at nfev = 283
+Parameters: [4.35662201 6.26888079 3.1729757  1.17146508 6.98236332 4.66731876
+ 4.68796913 2.83600163 5.85592965]
+Cost Function Value (Sampling): 0.237309 (Num: 0.351982 / Denom: 0.461500)
+Cost Function Value (Sampling): 0.253975 (Num: 0.302243 / Denom: 0.405138)
+Cost Function Value (Sampling): 0.224786 (Num: 0.343365 / Denom: 0.442929)
+Cost Function Value (Sampling): 0.222599 (Num: 0.355069 / Denom: 0.456738)
+Cost Function Value (Sampling): 0.239198 (Num: 0.304501 / Denom: 0.400238)
+Cost Function Value (Sampling): 0.221869 (Num: 0.345409 / Denom: 0.443896)
+Cost Function Value (Sampling): 0.250547 (Num: 0.352141 / Denom: 0.469864)
+Cost Function Value (Sampling): 0.226023 (Num: 0.322486 / Denom: 0.416661)
+Cost Function Value (Sampling): 0.224914 (Num: 0.343842 / Denom: 0.443618)
+Cost Function Value (Sampling): 0.225249 (Num: 0.317637 / Denom: 0.409986)
+Cost Function Value (Sampling): 0.267935 (Num: 0.355723 / Denom: 0.485918)
+Cost Function Value (Sampling): 0.215877 (Num: 0.340929 / Denom: 0.434790)
+New Best Found: Cost = 0.215877 at nfev = 295
+Parameters: [4.3340142  6.23952347 3.14348222 1.16365197 7.00497113 4.68201755
+ 4.71732645 2.85070041 5.83332184]
+Cost Function Value (Sampling): 0.281726 (Num: 0.332173 / Denom: 0.462460)
+Cost Function Value (Sampling): 0.266240 (Num: 0.328150 / Denom: 0.447218)
+Cost Function Value (Sampling): 0.218094 (Num: 0.340025 / Denom: 0.434867)
+Cost Function Value (Sampling): 0.253776 (Num: 0.299471 / Denom: 0.401315)
+Cost Function Value (Sampling): 0.241710 (Num: 0.367433 / Denom: 0.484554)
+Cost Function Value (Sampling): 0.215934 (Num: 0.343588 / Denom: 0.438213)
+Cost Function Value (Sampling): 0.237195 (Num: 0.330282 / Denom: 0.432983)
+Cost Function Value (Sampling): 0.227243 (Num: 0.359246 / Denom: 0.464889)
+Cost Function Value (Sampling): 0.219246 (Num: 0.343351 / Denom: 0.439768)
+Cost Function Value (Sampling): 0.253702 (Num: 0.264787 / Denom: 0.354801)
+Cost Function Value (Sampling): 0.256211 (Num: 0.412179 / Denom: 0.554162)
+Cost Function Value (Sampling): 0.225366 (Num: 0.343483 / Denom: 0.443414)
+Cost Function Value (Sampling): 0.269012 (Num: 0.278604 / Denom: 0.381134)
+Cost Function Value (Sampling): 0.273403 (Num: 0.380305 / Denom: 0.523406)
+Cost Function Value (Sampling): 0.218731 (Num: 0.339981 / Denom: 0.435165)
+Cost Function Value (Sampling): 0.256497 (Num: 0.360517 / Denom: 0.484890)
+Cost Function Value (Sampling): 0.226125 (Num: 0.292539 / Denom: 0.378018)
+Cost Function Value (Sampling): 0.215897 (Num: 0.338278 / Denom: 0.431421)
+Cost Function Value (Sampling): 0.235498 (Num: 0.338739 / Denom: 0.443085)
+Cost Function Value (Sampling): 0.277806 (Num: 0.324099 / Denom: 0.448770)
+Cost Function Value (Sampling): 0.213997 (Num: 0.337300 / Denom: 0.429134)
+New Best Found: Cost = 0.213997 at nfev = 316
+Parameters: [4.33188801 6.24141841 3.10702231 1.18752316 7.04900436 4.6940739
+ 4.74148618 2.89018698 5.84114962]
+Cost Function Value (Sampling): 0.245390 (Num: 0.384936 / Denom: 0.510112)
+Cost Function Value (Sampling): 0.252363 (Num: 0.257356 / Denom: 0.344226)
+Cost Function Value (Sampling): 0.216614 (Num: 0.339744 / Denom: 0.433686)
+Cost Function Value (Sampling): 0.235267 (Num: 0.326952 / Denom: 0.427538)
+Cost Function Value (Sampling): 0.224853 (Num: 0.336414 / Denom: 0.434001)
+Cost Function Value (Sampling): 0.213059 (Num: 0.341052 / Denom: 0.433389)
+New Best Found: Cost = 0.213059 at nfev = 322
+Parameters: [4.33046338 6.24284304 3.10559768 1.19480765 7.05628885 4.69549853
+ 4.74877067 2.89161161 5.84843411]
+Cost Function Value (Sampling): 0.232535 (Num: 0.315636 / Denom: 0.411270)
+Cost Function Value (Sampling): 0.237286 (Num: 0.361526 / Denom: 0.473999)
+Cost Function Value (Sampling): 0.217104 (Num: 0.338417 / Denom: 0.432263)
+Cost Function Value (Sampling): 0.247937 (Num: 0.407953 / Denom: 0.542445)
+Cost Function Value (Sampling): 0.223633 (Num: 0.280635 / Denom: 0.361473)
+Cost Function Value (Sampling): 0.217358 (Num: 0.333612 / Denom: 0.426263)
+Cost Function Value (Sampling): 0.247164 (Num: 0.366783 / Denom: 0.487202)
+Cost Function Value (Sampling): 0.240342 (Num: 0.269308 / Denom: 0.354513)
+Cost Function Value (Sampling): 0.214604 (Num: 0.333419 / Denom: 0.424523)
+Cost Function Value (Sampling): 0.229953 (Num: 0.331490 / Denom: 0.430480)
+Cost Function Value (Sampling): 0.220083 (Num: 0.340377 / Denom: 0.436427)
+Cost Function Value (Sampling): 0.211818 (Num: 0.333695 / Denom: 0.423374)
+New Best Found: Cost = 0.211818 at nfev = 334
+Parameters: [4.31550639 6.22955739 3.08668569 1.185477   7.05110723 4.67658655
+ 4.76205632 2.91052359 5.84158115]
+Cost Function Value (Sampling): 0.254851 (Num: 0.262532 / Denom: 0.352322)
+Cost Function Value (Sampling): 0.233834 (Num: 0.385250 / Denom: 0.502828)
+Cost Function Value (Sampling): 0.217166 (Num: 0.336882 / Denom: 0.430336)
+Cost Function Value (Sampling): 0.263660 (Num: 0.382513 / Denom: 0.519479)
+Cost Function Value (Sampling): 0.257942 (Num: 0.294718 / Denom: 0.397163)
+Cost Function Value (Sampling): 0.216778 (Num: 0.334265 / Denom: 0.426782)
+Cost Function Value (Sampling): 0.256069 (Num: 0.322936 / Denom: 0.434094)
+Cost Function Value (Sampling): 0.225173 (Num: 0.320235 / Denom: 0.413298)
+Cost Function Value (Sampling): 0.217508 (Num: 0.333848 / Denom: 0.426647)
+Cost Function Value (Sampling): 0.242852 (Num: 0.364043 / Denom: 0.480808)
+Cost Function Value (Sampling): 0.235190 (Num: 0.285432 / Denom: 0.373206)
+Cost Function Value (Sampling): 0.214348 (Num: 0.334536 / Denom: 0.425807)
+Cost Function Value (Sampling): 0.293254 (Num: 0.282539 / Denom: 0.399774)
+Cost Function Value (Sampling): 0.314070 (Num: 0.359429 / Denom: 0.524003)
+Cost Function Value (Sampling): 0.215406 (Num: 0.332455 / Denom: 0.423729)
+Cost Function Value (Sampling): 0.223289 (Num: 0.317867 / Denom: 0.409247)
+Cost Function Value (Sampling): 0.234601 (Num: 0.328451 / Denom: 0.429124)
+Cost Function Value (Sampling): 0.220192 (Num: 0.329598 / Denom: 0.422666)
+Cost Function Value (Sampling): 0.247525 (Num: 0.329686 / Denom: 0.438136)
+Cost Function Value (Sampling): 0.256957 (Num: 0.322020 / Denom: 0.433379)
+Cost Function Value (Sampling): 0.218899 (Num: 0.330045 / Denom: 0.422538)
+Cost Function Value (Sampling): 0.266670 (Num: 0.251814 / Denom: 0.343384)
+Cost Function Value (Sampling): 0.252385 (Num: 0.398433 / Denom: 0.532938)
+Cost Function Value (Sampling): 0.221354 (Num: 0.335055 / Denom: 0.430305)
+Cost Function Value (Sampling): 0.222779 (Num: 0.321847 / Denom: 0.414100)
+Cost Function Value (Sampling): 0.216297 (Num: 0.340592 / Denom: 0.434594)
+Cost Function Value (Sampling): 0.222313 (Num: 0.332696 / Denom: 0.427802)
+Cost Function Value (Sampling): 0.263337 (Num: 0.369526 / Denom: 0.501621)
+Cost Function Value (Sampling): 0.228958 (Num: 0.272436 / Denom: 0.353334)
+Cost Function Value (Sampling): 0.206960 (Num: 0.330267 / Denom: 0.416457)
+New Best Found: Cost = 0.206960 at nfev = 364
+Parameters: [4.33537198 6.23536153 3.0936813  1.14406725 7.0946361  4.62301262
+ 4.77692647 2.94179929 5.86814836]
+Cost Function Value (Sampling): 0.233222 (Num: 0.326824 / Denom: 0.426230)
+Cost Function Value (Sampling): 0.232661 (Num: 0.314505 / Denom: 0.409864)
+Cost Function Value (Sampling): 0.205728 (Num: 0.330238 / Denom: 0.415775)
+New Best Found: Cost = 0.205728 at nfev = 367
+Parameters: [4.3351523  6.23558121 3.09346162 1.14428694 7.09441642 4.62279294
+ 4.77714615 2.94157961 5.86792868]
+Cost Function Value (Sampling): 0.246351 (Num: 0.326504 / Denom: 0.433230)
+Cost Function Value (Sampling): 0.232091 (Num: 0.320606 / Denom: 0.417506)
+Cost Function Value (Sampling): 0.214077 (Num: 0.329921 / Denom: 0.419788)
+Cost Function Value (Sampling): 0.272367 (Num: 0.356074 / Denom: 0.489359)
+Cost Function Value (Sampling): 0.281920 (Num: 0.280545 / Denom: 0.390688)
+Cost Function Value (Sampling): 0.207553 (Num: 0.334390 / Denom: 0.421972)
+Cost Function Value (Sampling): 0.246484 (Num: 0.326117 / Denom: 0.432794)
+Cost Function Value (Sampling): 0.232582 (Num: 0.320729 / Denom: 0.417933)
+Cost Function Value (Sampling): 0.216811 (Num: 0.330238 / Denom: 0.421658)
+Cost Function Value (Sampling): 0.220674 (Num: 0.330694 / Denom: 0.424334)
+Cost Function Value (Sampling): 0.238743 (Num: 0.317127 / Denom: 0.416584)
+Cost Function Value (Sampling): 0.216655 (Num: 0.330238 / Denom: 0.421574)
+Cost Function Value (Sampling): 0.255390 (Num: 0.383484 / Denom: 0.515013)
+Cost Function Value (Sampling): 0.248113 (Num: 0.262325 / Denom: 0.348890)
+Cost Function Value (Sampling): 0.203960 (Num: 0.329914 / Denom: 0.414443)
+New Best Found: Cost = 0.203960 at nfev = 382
+Parameters: [4.32375455 6.25256437 3.09652081 1.13939211 7.11882062 4.64161174
+ 4.79412931 2.95856277 5.87932643]
+Cost Function Value (Sampling): 0.276268 (Num: 0.338628 / Denom: 0.467891)
+Cost Function Value (Sampling): 0.236296 (Num: 0.299332 / Denom: 0.391948)
+Cost Function Value (Sampling): 0.201365 (Num: 0.329519 / Denom: 0.412602)
+New Best Found: Cost = 0.201365 at nfev = 385
+Parameters: [4.30847481 6.23728463 3.08124107 1.15467185 7.13410037 4.65689148
+ 4.80940906 2.97384251 5.86404669]
+Cost Function Value (Sampling): 0.264562 (Num: 0.324342 / Denom: 0.441018)
+Cost Function Value (Sampling): 0.234657 (Num: 0.304223 / Denom: 0.397499)
+Cost Function Value (Sampling): 0.202738 (Num: 0.326417 / Denom: 0.409422)
+Cost Function Value (Sampling): 0.254997 (Num: 0.330938 / Denom: 0.444210)
+Cost Function Value (Sampling): 0.234130 (Num: 0.300289 / Denom: 0.392090)
+Cost Function Value (Sampling): 0.205920 (Num: 0.326703 / Denom: 0.411424)
+Cost Function Value (Sampling): 0.256448 (Num: 0.340114 / Denom: 0.457418)
+Cost Function Value (Sampling): 0.230298 (Num: 0.290232 / Denom: 0.377070)
+Cost Function Value (Sampling): 0.220076 (Num: 0.319430 / Denom: 0.409566)
+Cost Function Value (Sampling): 0.244623 (Num: 0.334433 / Denom: 0.442737)
+Cost Function Value (Sampling): 0.226585 (Num: 0.304670 / Denom: 0.393928)
+Cost Function Value (Sampling): 0.214305 (Num: 0.322326 / Denom: 0.410243)
+Cost Function Value (Sampling): 0.263431 (Num: 0.283466 / Denom: 0.384846)
+Cost Function Value (Sampling): 0.290646 (Num: 0.325981 / Denom: 0.459546)
+Cost Function Value (Sampling): 0.203063 (Num: 0.320385 / Denom: 0.402021)
+Cost Function Value (Sampling): 0.234502 (Num: 0.305949 / Denom: 0.399674)
+Cost Function Value (Sampling): 0.223185 (Num: 0.319177 / Denom: 0.410879)
+Cost Function Value (Sampling): 0.200491 (Num: 0.323785 / Denom: 0.404980)
+New Best Found: Cost = 0.200491 at nfev = 403
+Parameters: [4.29072357 6.25739863 3.07012518 1.15659348 7.17462554 4.64523344
+ 4.79316946 3.01436768 5.88416069]
+Cost Function Value (Sampling): 0.279004 (Num: 0.241725 / Denom: 0.335265)
+Cost Function Value (Sampling): 0.246169 (Num: 0.364699 / Denom: 0.483794)
+Cost Function Value (Sampling): 0.210156 (Num: 0.326324 / Denom: 0.413150)
+Cost Function Value (Sampling): 0.226791 (Num: 0.334191 / Denom: 0.432213)
+Cost Function Value (Sampling): 0.211770 (Num: 0.308843 / Denom: 0.391818)
+Cost Function Value (Sampling): 0.207296 (Num: 0.329771 / Denom: 0.416008)
+Cost Function Value (Sampling): 0.203332 (Num: 0.281599 / Denom: 0.353471)
+Cost Function Value (Sampling): 0.259352 (Num: 0.341205 / Denom: 0.460684)
+Cost Function Value (Sampling): 0.204718 (Num: 0.322285 / Denom: 0.405246)
+Cost Function Value (Sampling): 0.218357 (Num: 0.323958 / Denom: 0.414458)
+Cost Function Value (Sampling): 0.235434 (Num: 0.304364 / Denom: 0.398087)
+Cost Function Value (Sampling): 0.220078 (Num: 0.319080 / Denom: 0.409118)
+Cost Function Value (Sampling): 0.214729 (Num: 0.261042 / Denom: 0.332423)
+Cost Function Value (Sampling): 0.234649 (Num: 0.392757 / Denom: 0.513172)
+Cost Function Value (Sampling): 0.209044 (Num: 0.315454 / Denom: 0.398826)
+Cost Function Value (Sampling): 0.221861 (Num: 0.345383 / Denom: 0.443858)
+Cost Function Value (Sampling): 0.213094 (Num: 0.268566 / Denom: 0.341294)
+Cost Function Value (Sampling): 0.197703 (Num: 0.318489 / Denom: 0.396971)
+New Best Found: Cost = 0.197703 at nfev = 421
+Parameters: [4.29425962 6.21953936 3.09337164 1.14317691 7.20901261 4.6440372
+ 4.75878238 3.03892487 5.87074412]
+Cost Function Value (Sampling): 0.243490 (Num: 0.337442 / Denom: 0.446051)
+Cost Function Value (Sampling): 0.193874 (Num: 0.272076 / Denom: 0.337511)
+Cost Function Value (Sampling): 0.202573 (Num: 0.312249 / Denom: 0.391571)
+Cost Function Value (Sampling): 0.245557 (Num: 0.381023 / Denom: 0.505038)
+Cost Function Value (Sampling): 0.253502 (Num: 0.231740 / Denom: 0.310437)
+Cost Function Value (Sampling): 0.191750 (Num: 0.315733 / Denom: 0.390638)
+New Best Found: Cost = 0.191750 at nfev = 427
+Parameters: [4.27330734 6.19858707 3.11432393 1.12222462 7.2299649  4.66498948
+ 4.77973466 3.05411061 5.85555838]
+Cost Function Value (Sampling): 0.215165 (Num: 0.310954 / Denom: 0.396203)
+Cost Function Value (Sampling): 0.200274 (Num: 0.311969 / Denom: 0.390095)
+Cost Function Value (Sampling): 0.205132 (Num: 0.312733 / Denom: 0.393441)
+Cost Function Value (Sampling): 0.245608 (Num: 0.386075 / Denom: 0.511770)
+Cost Function Value (Sampling): 0.262745 (Num: 0.231838 / Denom: 0.314462)
+Cost Function Value (Sampling): 0.203863 (Num: 0.318287 / Denom: 0.399789)
+Cost Function Value (Sampling): 0.247484 (Num: 0.374315 / Denom: 0.497418)
+Cost Function Value (Sampling): 0.242407 (Num: 0.237788 / Denom: 0.313874)
+Cost Function Value (Sampling): 0.197168 (Num: 0.312576 / Denom: 0.389342)
+Cost Function Value (Sampling): 0.216373 (Num: 0.246661 / Denom: 0.314769)
+Cost Function Value (Sampling): 0.253832 (Num: 0.353051 / Denom: 0.473152)
+Cost Function Value (Sampling): 0.196543 (Num: 0.303903 / Denom: 0.378244)
+Cost Function Value (Sampling): 0.192433 (Num: 0.311781 / Denom: 0.386075)
+Cost Function Value (Sampling): 0.216285 (Num: 0.297053 / Denom: 0.379031)
+Cost Function Value (Sampling): 0.194512 (Num: 0.306803 / Denom: 0.380891)
+Cost Function Value (Sampling): 0.280411 (Num: 0.313014 / Denom: 0.434990)
+Cost Function Value (Sampling): 0.265810 (Num: 0.280117 / Denom: 0.381532)
+Cost Function Value (Sampling): 0.200105 (Num: 0.302358 / Denom: 0.377997)
+Cost Function Value (Sampling): 0.263488 (Num: 0.264675 / Denom: 0.359363)
+Cost Function Value (Sampling): 0.264783 (Num: 0.340332 / Denom: 0.462899)
+Cost Function Value (Sampling): 0.200831 (Num: 0.303341 / Denom: 0.379571)
+Cost Function Value (Sampling): 0.223894 (Num: 0.306846 / Denom: 0.395366)
+Cost Function Value (Sampling): 0.202504 (Num: 0.303719 / Denom: 0.380841)
+Cost Function Value (Sampling): 0.204507 (Num: 0.302760 / Denom: 0.380594)
+Cost Function Value (Sampling): 0.195372 (Num: 0.298707 / Denom: 0.371236)
+Cost Function Value (Sampling): 0.214739 (Num: 0.279810 / Denom: 0.356327)
+Cost Function Value (Sampling): 0.211442 (Num: 0.302563 / Denom: 0.383692)
+Cost Function Value (Sampling): 0.261778 (Num: 0.335451 / Denom: 0.454403)
+Cost Function Value (Sampling): 0.251278 (Num: 0.242326 / Denom: 0.323654)
+Cost Function Value (Sampling): 0.203033 (Num: 0.301213 / Denom: 0.377949)
+Cost Function Value (Sampling): 0.214332 (Num: 0.275535 / Denom: 0.350702)
+Cost Function Value (Sampling): 0.236035 (Num: 0.302262 / Denom: 0.395649)
+Cost Function Value (Sampling): 0.198072 (Num: 0.302071 / Denom: 0.376682)
+Cost Function Value (Sampling): 0.264668 (Num: 0.318372 / Denom: 0.432964)
+Cost Function Value (Sampling): 0.279388 (Num: 0.257223 / Denom: 0.356951)
+Cost Function Value (Sampling): 0.194304 (Num: 0.304415 / Denom: 0.377829)
+Cost Function Value (Sampling): 0.196361 (Num: 0.242815 / Denom: 0.302145)
+Cost Function Value (Sampling): 0.229330 (Num: 0.348684 / Denom: 0.452442)
+Cost Function Value (Sampling): 0.194837 (Num: 0.297932 / Denom: 0.370026)
+Cost Function Value (Sampling): 0.233104 (Num: 0.317688 / Denom: 0.414251)
+
